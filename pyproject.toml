@@ -3,7 +3,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ccf-scheduler"
+name = "ccf"
 version = "0.1.0"
 description = "Converging Computing Framework Scheduling (CCF): four-route potential minimisation for computing power network scheduling"
 readme = "README.md"
