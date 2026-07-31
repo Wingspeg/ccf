@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ccf-scheduler"
+version = "0.1.0"
+description = "Converging Computing Framework Scheduling (CCF): four-route potential minimisation for computing power network scheduling"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Liying Wang", email = "wangliying@tongji.edu.cn" },
+    { name = "Cheng Wang", email = "wangcheng@tongji.edu.cn" },
+]
+keywords = ["scheduling", "computing-power-network", "SOR", "optimization", "ablation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+]
+
+dependencies = [
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+    "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+]
+
+[project.urls]
+"Paper" = "(to be filled once the paper is accepted)"
+"Source" = "(to be filled when the code is uploaded)"
+
+[tool.setuptools]
+packages = ["ccf", "experiments"]
+
+[tool.setuptools.package-data]
+"ccf" = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
