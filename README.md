@@ -1,6 +1,6 @@
 # CCF Scheduler
 
-> **Converging Computing Framework (CCF) Scheduling** —
+> **Converging Computing Framework (CCF)** —
 > a four-route potential minimisation for computing power network scheduling,
 > with a two-stage scheme (inter-layer quota + intra-cabin SOR relaxation).
 >
@@ -14,8 +14,7 @@
 
 ## What is CCF?
 
-CCF models computing power network scheduling as the minimisation of a
-**four-component potential**
+CCF models computing power network scheduling.
 
 ```
 Phi(i, j) = lambda1 * phi_rep      # representation / knowledge-graph distance
