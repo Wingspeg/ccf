@@ -14,7 +14,8 @@
 
 ## What is CCF?
 
-CCF models computing power network scheduling.
+CCF models computing power network scheduling as the minimisation of a
+**four-component potential**
 
 ```
 Phi(i, j) = lambda1 * phi_rep      # representation / knowledge-graph distance
