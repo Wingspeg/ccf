@@ -203,5 +203,3 @@ The tests check:
 ## License
 
 [MIT](./LICENSE) © 2026 Wingspeg.
-
-Originally authored by Liying Wang and Cheng Wang (Tongji University).
