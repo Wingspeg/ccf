@@ -202,4 +202,4 @@ The tests check:
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+[MIT](./LICENSE) © 2026 Wingspeg.
